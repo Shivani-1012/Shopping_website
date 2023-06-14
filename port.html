@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="port1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="" alt="" class="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Qualification</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hello, I'm <span>Shivani</span> Shelake</h1>
+      </div>
+    </div>
+
+    <!-------------about section-------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://img.freepik.com/free-photo/portrait-happy-woman-with-digital-tablet_329181-11681.jpg?size=626&ext=jpg&ga=GA1.2.1593144784.1682578092&semt=ais"
+              alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1><br>
+            <p>Hello!<br> I am Shivani Shelake.I have completed <h3>Master Of Computer Application</h3> in Year of 2021.<br> Make me passionate about learning new technologies and advancing skills.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('highest qualification')">Highest Qualification</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>Javascript</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experince">
+              <ul>
+                <li><span>Fresher</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="highest qualification">
+              <ul>
+                <li><span>MCA(Master Of Ccomputer Application)Passing Year-2021</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents =  document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");  
+      }       
+    </script>
+  </body>
+</html>
