@@ -234,3 +234,20 @@ nav ul li a:hover::after {
 .work:hover .layer {
   height: 100%;
 }
+
+/*------------contact---------*/
+.contact-left{
+  flex-basis: 5%;
+}
+  
+.contact-right{
+  flex-basis: 20%;
+}
+
+
+
+
+
+
+
+/*---------------css for small screens--------------*/
