@@ -236,18 +236,23 @@ nav ul li a:hover::after {
 }
 
 /*------------contact---------*/
-.contact-left{
+.contact-left {
   flex-basis: 5%;
 }
-  
-.contact-right{
+
+.contact-right {
   flex-basis: 20%;
 }
 
-
-
-
-
-
-
 /*---------------css for small screens--------------*/
+@media only screen and (min-width: 600) {
+  .qualification-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
