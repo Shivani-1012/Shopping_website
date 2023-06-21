@@ -186,7 +186,7 @@ nav ul li a:hover::after {
 
 .work-list {
   margin-top: 50px;
-  display: flex;
+  display: block;
   grid-gap: 80px;
 }
 
@@ -244,21 +244,21 @@ nav ul li a:hover::after {
   flex-basis: 60%;
 }
 
-.contact-left p{
+.contact-left p {
   margin-top: 25px;
 }
 
-.contact-left p i{
+.contact-left p i {
   color: #ff004f;
   margin-right: 15px;
   font-size: 20px;
 }
 
-.social-icons{
+.social-icons {
   margin-top: 30px;
 }
 
-.social-icons a{
+.social-icons a {
   text-decoration: none;
   font-size: 25px;
   margin-right: 15px;
@@ -267,26 +267,27 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
   color: #ff004f;
   transform: translateY(-5px);
 }
 
-.btn.btn2{
+.btn.btn2 {
   display: inline-block;
   background-color: #ff004f;
   font-size: 10px;
   margin-top: 35px;
   color: #fff;
   padding: 10px 25px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
-.contact-right form{
+.contact-right form {
   width: 100%;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   border: 0;
   outline: none;
@@ -298,7 +299,7 @@ form input, form textarea{
   border-radius: 6px;
 }
 
-.btn3{
+.btn3 {
   display: inline-block;
   background-color: #ff004f;
   margin-top: 15px;
@@ -308,6 +309,75 @@ form input, form textarea{
   font-size: 10px;
 }
 
-
 /*---------------css for small screens--------------*/
+nav .fa-solid {
+  display: none;
+}
 
+@media only screen and (max-width: 600px) {
+  .header-text {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .header-text h1 {
+    font-size: 25px;
+  }
+
+  nav .fa-solid {
+    display: block;
+  }
+
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: left 2s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+  }
+
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+  }
+
+  .about-col-1 {
+    margin-bottom: 30px;
+  }
+
+  .tab-links {
+    font-size: 15px;
+  }
+
+  .qualification-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-left, .contact-right{
+    flex-basis: 100%;
+    margin-top: 15px;
+  }
+}
