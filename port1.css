@@ -186,8 +186,9 @@ nav ul li a:hover::after {
 
 .work-list {
   margin-top: 50px;
-  display: block;
-  grid-gap: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
 }
 
 .work-list img {
@@ -329,7 +330,7 @@ nav .fa-solid {
   }
 
   nav ul {
-    background: #ff004f;
+    background: #ff2a6e;
     position: fixed;
     top: 0;
     left: -200px;
@@ -359,6 +360,9 @@ nav .fa-solid {
 
   .about-col-1 {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .tab-links {
@@ -376,7 +380,8 @@ nav .fa-solid {
     align-items: center;
   }
 
-  .contact-left, .contact-right{
+  .contact-left,
+  .contact-right {
     flex-basis: 100%;
     margin-top: 15px;
   }
