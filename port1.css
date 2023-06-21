@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.html{
+  scroll-behavior: initial;
+}
+
 body {
   background: #080808;
   color: #fff;
@@ -75,7 +79,7 @@ nav ul li a:hover::after {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .about-col-1 {
@@ -384,5 +388,8 @@ nav .fa-solid {
   .contact-right {
     flex-basis: 100%;
     margin-top: 15px;
+  }
+  .row {
+    flex-direction: column;
   }
 }
