@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 
-.html{
-  scroll-behavior: initial;
+.html {
+  scroll-behavior: inherit;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 nav {
   display: flex;
-  align-items: centaer;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 15px;
 }
 
@@ -241,6 +241,7 @@ nav ul li a:hover::after {
 }
 
 /*------------contact---------*/
+
 .contact-left {
   flex-basis: 30%;
 }
