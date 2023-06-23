@@ -141,6 +141,9 @@ nav ul li a:hover::after {
   list-style: none;
   margin: 10px 0;
 }
+.about-col-2 {
+  line-height: 1.5;
+}
 
 .tab-contents ul li span {
   color: #b54769;
@@ -158,14 +161,12 @@ nav ul li a:hover::after {
 /*------------------qualification-------------*/
 #qualification {
   height: 100%;
-  width: 100%; 
+  width: 100%;
 }
 
-
 .qualification-list {
-  
   display: flex;
-  grid-gap: 60px;
+  justify-content: space-evenly;
   text-align: center;
   margin-top: 80px;
   margin-left: 120px;
@@ -212,16 +213,17 @@ nav ul li a:hover::after {
 }
 
 .work-list img {
-  height: 320px;
+  height: 350px;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
+  width: 100%;
 }
 
 .work {
   border-radius: 10px;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .layer {
@@ -268,12 +270,12 @@ nav ul li a:hover::after {
   flex-basis: 60%;
   margin-top: 70px;
 }
-
+#sub-title {
+  padding-left: 0px;
+  font-size: 20px;
+}
 .contact-left p {
   margin-top: 25px;
-}
-.contact-left h1{
-  margin-right: 30px;
 }
 
 .contact-left p i {
