@@ -395,7 +395,12 @@ nav .fa-solid {
     right: 25px;
     cursor: pointer;
   }
-  
+
+  .qualification-list{
+    flex-direction: column;
+    column-gap: 10px;
+  }
+
   
 
   
