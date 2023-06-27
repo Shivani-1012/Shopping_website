@@ -399,6 +399,7 @@ nav .fa-solid {
   .qualification-list{
     flex-direction: column;
     column-gap: 10px;
+    align-items: center;
   }
 
   
