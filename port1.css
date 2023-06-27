@@ -168,8 +168,9 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  margin-top: 80px;
-  margin-left: 120px;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 0px;
 }
 
 .qualification-list div {
@@ -197,6 +198,7 @@ nav ul li a:hover::after {
   font-weight: 600;
   color: #fff;
   margin-left: 60px;
+  margin-right: 60px;
 }
 
 /*-------------------project--------------------------*/
@@ -205,7 +207,7 @@ nav ul li a:hover::after {
 }
 
 .work-list {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 120px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -217,7 +219,7 @@ nav ul li a:hover::after {
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
-  width: 100%;
+  
 }
 
 .work {
@@ -313,7 +315,7 @@ nav ul li a:hover::after {
 }
 
 .contact-right form {
-  width: 100%;
+  width: 80%;
 }
 
 form input,
