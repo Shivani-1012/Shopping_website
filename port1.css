@@ -334,7 +334,6 @@ nav ul li a:hover::after {
 
 .contact-right form {
   width: 100%;
-  
 }
 
 form input,
@@ -429,7 +428,4 @@ nav .fa-solid {
     font-weight: 600;
     color: #fff;
   }
-
-  
-  
 }
