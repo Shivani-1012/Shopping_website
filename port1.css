@@ -333,7 +333,8 @@ nav ul li a:hover::after {
 }
 
 .contact-right form {
-  width: 80%;
+  width: 100%;
+  
 }
 
 form input,
@@ -418,7 +419,7 @@ nav .fa-solid {
   }
 
   .work-list {
-    grid-template-columns: 47.5%;
+    grid-template-columns: 50.5%;
     grid-row-gap: 50px;
     width: 100%;
   }
@@ -429,10 +430,6 @@ nav .fa-solid {
     color: #fff;
   }
 
-  .contact-left {
-    margin-left: 0px; 
-    margin-top: 0px;
-    
-  }
-
+  
+  
 }
