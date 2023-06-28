@@ -87,10 +87,15 @@ nav ul li a:hover::after {
 .row {
   display: flex;
   gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-col-1 {
+  display: flex;
   flex-basis: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-col-1 img {
@@ -101,7 +106,7 @@ nav ul li a:hover::after {
   margin-top: 60px;
 }
 
-.sub-title {
+.sub-title1 {
   font-size: 20px;
   font-weight: 600;
   color: #fff;
@@ -178,6 +183,7 @@ nav ul li a:hover::after {
   margin-left: 80px;
   margin-right: 0px;
   margin-bottom: 70px;
+  gap: 10px;
 }
 
 .qualification-list div {
@@ -230,7 +236,7 @@ nav ul li a:hover::after {
   height: 350px;
   width: 300px;
   border-radius: 10px;
- 
+
   transition: transform 0.5s;
 }
 
@@ -396,12 +402,11 @@ nav .fa-solid {
     cursor: pointer;
   }
 
-  .qualification-list{
+  .row {
     flex-direction: column;
   }
 
-  
-
-  
-  
+  .qualification-list {
+    flex-direction: column;
+  }
 }
