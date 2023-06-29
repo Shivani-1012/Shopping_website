@@ -429,12 +429,13 @@ nav .fa-solid {
     color: #fff;
   }
 
-  .contact-left{
+  .contact-left {
     margin-left: 0px;
     align-items: center;
   }
 
-  .contact-right{
+  .contact-right {
     margin-left: 20%;
+    margin-right: 10%;
   }
 }
