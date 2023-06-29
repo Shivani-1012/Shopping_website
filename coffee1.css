@@ -47,9 +47,9 @@ span {
   transition: ease;
 }
 .menue li a:hover {
-  color: crimson;
+  color: rgb(200, 55, 84);
   padding: 8px, 25px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 .home {
   height: 400px;
