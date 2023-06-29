@@ -428,4 +428,13 @@ nav .fa-solid {
     font-weight: 600;
     color: #fff;
   }
+
+  .contact-left{
+    margin-left: 0px;
+    align-items: center;
+  }
+
+  .contact-right{
+    margin-left: 20%;
+  }
 }
