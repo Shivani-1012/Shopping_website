@@ -24,6 +24,10 @@ body{
   padding: 40px 0;
 }
 
+.wrapper .sidebar a:hover{
+  color: #000000ea;
+}
+
 .wrapper .sidebar h2{
   color: black;
   text-transform: uppercase;
@@ -60,6 +64,10 @@ body{
   text-align: center;
   margin: 0 7px;
   color: hsla(260, 3%, 21%, 0.527);
+}
+
+.wrapper .sidebar .social_media a:hover{
+  color: #000000ea;
 }
 
 .wrapper .main_content{
